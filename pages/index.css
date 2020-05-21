@@ -1,0 +1,5 @@
+@import url(../blocks/header/header.css);
+.root{
+    max-width: 1440px;
+    background-color: #2a2c2f;
+}
