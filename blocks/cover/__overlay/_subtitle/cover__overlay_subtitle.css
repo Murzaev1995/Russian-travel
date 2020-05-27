@@ -1,0 +1,21 @@
+.cover__overlay_subtitle{
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* or 122% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+max-width: 360px;
+margin: 32px auto 0 auto;
+}
+@media screen and (max-width: 320px){
+    .cover__overlay_subtitle{
+        margin-top: 16px;
+        font-size: 14px;
+line-height: 16px;
+    }
+}

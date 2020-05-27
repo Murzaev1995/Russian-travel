@@ -1,0 +1,27 @@
+@import url(./_background/cover__overlay_background.css);
+@import url(./_title/cover__overlay_title.css);
+@import url(./_subtitle/cover__overlay_subtitle.css);
+.cover__overlay{
+    background-image: url(../../../image/cover-trains.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 740px;
+    text-decoration: none;
+    position: relative;
+    z-index: 0;
+}
+@media screen and (max-width: 1024px){
+    .cover__overlay{
+        height: 640px;
+    }
+}
+@media screen and (max-width: 768px){
+    .cover__overlay{
+        height: 480px;
+    }
+}
+@media screen and (max-width: 320px){
+    .cover__overlay{
+        height: 200px;
+    }
+}

@@ -1,0 +1,19 @@
+@import url(./__overlay/cover__overlay.css);
+.cover{
+    max-width: 92.5%;
+    max-height: 740px;
+    margin: 92px auto 134px auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+@media screen and (max-width: 1024px){
+    .cover{
+        max-width: 90.63%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .cover{
+        max-width: 100%;
+    }
+}

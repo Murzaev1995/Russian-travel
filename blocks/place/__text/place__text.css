@@ -1,0 +1,27 @@
+@import url(./_paragraph-2/place__text_paragrapf-2.css);
+.place__text{
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+max-width: 484px;
+max-height: 150px;
+grid-column: 2/3;
+    grid-row: 2/3;
+/* or 167% */
+
+
+color: #FFFFFF;
+}
+@media screen and (max-width: 768px){
+    .place__text{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+@media screen and (max-width: 320px){
+    .place__text{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+}

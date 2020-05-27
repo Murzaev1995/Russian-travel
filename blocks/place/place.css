@@ -1,0 +1,42 @@
+@import url(./__title/place__title.css);
+@import url(./__img/place__img.css);
+@import url(./__web/place__web.css);
+@import url(./__text/place__text.css);
+.place{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 460px 480px;
+    grid-template-rows: 152px 460px;
+    grid-gap: 48px 40px;
+    max-width: 76.88%;
+    margin-bottom: 80px;
+    
+}
+.place:last-child{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px){
+    .place{
+        max-width: 90.63%;
+        grid-template-columns: 440px 456px;
+    grid-template-rows: 152px 440px; 
+    }
+}
+@media screen and (max-width: 768px){
+    .place{
+        max-width: 93.75%;
+        grid-template-columns: 340px 352px;
+        grid-template-rows: 92px 340px;  
+    }
+}
+@media screen and (max-width: 320px){
+    .place{
+        max-width: 100%;
+        grid-template-columns: 320px;
+        grid-template-rows:  35px 320px 552px;
+        grid-row-gap: 32px;
+        margin-bottom: 48px;
+    }
+}
+

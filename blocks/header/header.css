@@ -1,9 +1,28 @@
 @import url(./__logo/header__logo.css);
+@import url(./__lang/header__lang.css);
 .header{
-    border: 1px solid red;
-    margin-left: 128px;
-    margin-top: 30px;
-    width: 90%;
+    margin: 28px 48px 0 48px;
+    max-width: 92.5%;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 1024px){
+    .header{
+        max-width: 90.63%;
+    }
+}
+@media screen and (max-width: 768px){
+    .header{
+        max-width: 93.75%;
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+}
+@media screen and (max-width: 320px){
+    .header{
+        max-width: 90%;
+        margin: 16px 16px 16px;
+
+    }
 }

@@ -1,0 +1,22 @@
+@import url(./_en/header__lang_en.css);
+@import url(./_ru/header__lang_ru.css);
+.header__lang{
+    display: flex;
+margin-top: 12px;
+margin-bottom: 17px;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5rem;
+line-height: 23px;
+text-align: right;
+color: #FFFFFF;
+}
+@media screen and (max-width: 320px){
+    .header__lang{
+        font-size: 1.125rem;
+        
+
+    }
+}
+
+
