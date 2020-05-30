@@ -7,6 +7,13 @@ text-align: center;
 margin: 48px auto 0 auto;
 
 color: #FFFFFF;
+max-width: 640px;
+}
+@media screen and (max-width: 664px){
+    .lead__subtitle{
+        font-size: 4vw;
+        line-height: normal;
+    }
 }
 @media screen and (max-width: 320px){
     .lead__subtitle{
