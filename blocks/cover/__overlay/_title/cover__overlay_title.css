@@ -1,7 +1,7 @@
 .cover__overlay_title{
     font-style: normal;
     font-weight: 900;
-    font-size: 72px;
+    font-size: 4.5rem;
     line-height: 76px;
     max-width: 560px;
     /* or 106% */
@@ -19,6 +19,12 @@
     @media screen and (max-width: 768px){
         .cover__overlay_title{
             margin-top: 115px;
+        }
+    }
+    @media screen and (max-width: 514px){
+        .cover__overlay_title{
+            font-size: 13vw;
+            line-height: normal;
         }
     }
     @media screen and (max-width: 320px){

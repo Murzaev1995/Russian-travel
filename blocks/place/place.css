@@ -1,12 +1,14 @@
 @import url(./__title/place__title.css);
 @import url(./__img/place__img.css);
 @import url(./__web/place__web.css);
+@import url(./__web-link/place_web-link.css);
+@import url(./__web-url/place__web-url.css);
 @import url(./__text/place__text.css);
 .place{
     max-width: 100%;
     display: grid;
-    grid-template-columns: minmax(440px, 460px) minmax(400px, 480px);
-    grid-template-rows: 152px minmax(440px, 460px);
+    grid-template-columns: minmax(440px, 460px) minmax(min-content, 480px);
+    grid-template-rows: 152px minmax(440px, max-content);
     grid-gap: 48px 40px;
     margin-bottom: 80px;
     
@@ -18,22 +20,25 @@
 @media screen and (max-width: 1024px){
     .place{
         max-width: 90.63%;
-        grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
-    grid-template-rows: minmax(92px, 152px) minmax(340px, 440px); 
+        grid-template-columns: minmax(420px, 440px) minmax(352px, 456px);
+    grid-template-rows: minmax(92px, min-content) minmax(340px, max-content); 
+    }
+    .place:last-child{
+        grid-template-rows: minmax(92px, 152px) minmax(340px, min-content); 
     }
 }
 @media screen and (max-width: 768px){
     .place{
         max-width: 93.75%;
-        grid-template-columns: minmax(320px, 340px) minmax(320px, 352px);
-        grid-template-rows: minmax(32px, 92px) minmax(320px, 340px);  
+        grid-template-columns: minmax(340px, 340px) minmax(min-content, 352px);
+        grid-template-rows: minmax(32px, 92px) minmax(min-content, max-content);  
     }
 }
 @media screen and (max-width: 720px){
     .place{
         max-width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows:  35px 1fr 1fr;
+        grid-template-rows:  35px 0.5fr 0.4fr;
         grid-row-gap: 32px;
         margin-bottom: 48px;
     }
@@ -42,9 +47,10 @@
     .place{
         max-width: 100%;
         grid-template-columns: 320px;
-        grid-template-rows:  35px 320px 552px;
+        grid-template-rows:  35px 320px minmax(min-content, max-content);
         grid-row-gap: 32px;
         margin-bottom: 48px;
     }
 }
+
 

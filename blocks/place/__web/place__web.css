@@ -1,5 +1,3 @@
-@import url(./_link/place_web_link.css);
-@import url(./_url/place__web_url.css);
 .place__web{
     grid-column: 2/3;
     grid-row: 1/2;

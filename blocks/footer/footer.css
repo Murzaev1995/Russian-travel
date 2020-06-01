@@ -1,8 +1,9 @@
 @import url(./__links/footer__links.css);
+@import url(./__links-list/footer__links-list.css);
 @import url(./__copyright/footer__copyryght.css);
 .footer{
     max-width: 92.5%;
-    margin: 92px 48px 24px 48px;
+    margin: 92px auto 24px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,11 +19,15 @@
         max-width: 93.75%;
     }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 732px){
     .footer{
-        max-width: 58.13%;
         flex-direction: column;
-        align-content: space-between;
+    }
+}
+@media screen and (max-width: 562px){
+    .footer{
+        max-width: 100%;
+        
         margin: 64px auto 24px 16px;
         
     }

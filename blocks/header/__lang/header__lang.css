@@ -2,20 +2,21 @@
 @import url(./_ru/header__lang_ru.css);
 .header__lang{
     display: flex;
-margin-top: 12px;
-margin-bottom: 17px;
+margin-top: 18px;
+margin-bottom: 6px;
 font-style: normal;
 font-weight: normal;
 font-size: 1.5rem;
 line-height: 23px;
 text-align: right;
 color: #FFFFFF;
+text-decoration: none;
 }
 @media screen and (max-width: 320px){
     .header__lang{
         font-size: 1.125rem;
-        
-
+        margin-top: 14px;
+        margin-bottom: 4px;
     }
 }
 

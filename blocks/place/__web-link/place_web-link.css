@@ -1,4 +1,4 @@
-.place__web_link{
+.place__web-link{
     font-family: Inter;
 font-style: normal;
 font-weight: normal;
@@ -10,6 +10,6 @@ text-decoration-line: underline;
 
 color: #FFFFFF;
 }
-.place__web_link:hover{
+.place__web-link:hover{
     opacity: 0.8;
 }
