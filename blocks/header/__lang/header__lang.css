@@ -1,5 +1,4 @@
-@import url(./_en/header__lang_en.css);
-@import url(./_ru/header__lang_ru.css);
+@import url(./_selected/header__lang_selected.css);
 .header__lang{
     display: flex;
 margin-top: 18px;

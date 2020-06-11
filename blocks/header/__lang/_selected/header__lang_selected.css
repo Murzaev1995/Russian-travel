@@ -1,0 +1,7 @@
+.header__lang_selected{
+    margin-right: 18px;
+    text-decoration: underline;
+}
+.header__lang:hover{
+    opacity: 0.7;
+}
