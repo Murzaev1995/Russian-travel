@@ -1,8 +1,8 @@
-.place__text_paragraph{
+.place__text-paragraph{
     margin: 0 0 24px 0
 }
 @media screen and (max-width: 320px){
-    .place__text_paragraph{
+    .place__text-paragraph{
         margin-left: 16px;
         margin-right: 16px;
     }

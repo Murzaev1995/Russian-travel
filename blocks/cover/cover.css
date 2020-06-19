@@ -1,4 +1,6 @@
 @import url(./__overlay/cover__overlay.css);
+@import url(./__overlay-title/cover__overlay-title.css);
+@import url(./__overlay-subtitle/cover__overlay-subtitle.css);
 @import url(./__overlay-background/cover__overlay-background.css);
 .cover{
     max-width: 92.5%;

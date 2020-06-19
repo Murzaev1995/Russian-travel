@@ -27,9 +27,13 @@
 @media screen and (max-width: 562px){
     .footer{
         max-width: 100%;
+        margin: 64px auto 24px auto;
         
-        margin: 64px auto 24px 16px;
-        
+    }
+}
+@media screen and (max-width:320px){
+    .footer{
+        align-items: flex-start;
     }
 }
 

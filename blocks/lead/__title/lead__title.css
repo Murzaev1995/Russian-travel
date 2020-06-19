@@ -6,9 +6,9 @@ line-height: 100px;
 text-align: center;
 margin: 0 auto 0 auto;
 max-width: 720px;
-
 color: #fff;
 }
+
 @media screen and (max-width: 664px){
     .lead__title{
         font-size: 12vw;

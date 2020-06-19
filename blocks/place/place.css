@@ -1,9 +1,10 @@
 @import url(./__title/place__title.css);
 @import url(./__img/place__img.css);
 @import url(./__web/place__web.css);
-@import url(./__web-link/place_web-link.css);
+@import url(./__web-link/place__web-link.css);
 @import url(./__web-url/place__web-url.css);
 @import url(./__text/place__text.css);
+@import url(./__text-paragraph/place__text-paragraph.css);
 .place{
     max-width: 100%;
     display: grid;

@@ -1,16 +1,9 @@
-.footer__links-list{
-    display: inline;
-}
+
 @media screen and (max-width: 482px){
     .footer__links-list{
-        display: list-item;
         margin-bottom: 32px;
     }
     .footer__links-list:last-child{
         margin-bottom: 0;
     }
 }
-@media screen and (max-width: 320px){
-    .footer__links-list{
-        margin-left: -149px;
-    }

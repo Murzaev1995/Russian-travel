@@ -5,10 +5,10 @@ font-size: 30px;
 line-height: 36px;
 text-align: center;
 margin: 32px auto 0 auto;
-
 color: #FFFFFF;
 max-width: 640px;
 }
+
 @media screen and (max-width: 664px){
     .lead__subtitle{
         font-size: 5vw;
