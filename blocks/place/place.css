@@ -43,8 +43,6 @@
     .place{
         grid-template-columns: 320px;
         grid-template-rows:  35px 320px minmax(min-content, max-content);
-        grid-row-gap: 32px;
-        margin-bottom: 48px;
     }
 }
 
